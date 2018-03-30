@@ -1,0 +1,27 @@
+body {
+    /* color: #20C20E; */
+    color: #000;
+    padding: 1em;
+    line-height: 1.8em;
+    font-family: Cousine, monospace;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
+    background: #dfe6e9;
+    /* background: #000; */
+}
+
+h1, h2 { color: #5f27cd; }
+
+a {
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 3px;
+    background: #5f27cd;
+    color: #fff;
+}
+a:before {
+    content: "#";
+}
+
+.list { list-style: none; }
