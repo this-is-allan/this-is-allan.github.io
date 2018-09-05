@@ -139,6 +139,7 @@ body {
 .card {
   border-radius: 5px;
   width: 110px;
+  margin: 20px 10px;
 }
 
 .card-title {
@@ -169,18 +170,17 @@ body {
 }
 
 .progress-wrap .progress-bar {
-  /* background: #00FF68; */
   background: #e84393;
   left: 0;
   position: absolute;
   top: 0;
 }
 
-
-
 .content {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding: 0 20px;
 }
 /* -- end Main Content -- */
 
