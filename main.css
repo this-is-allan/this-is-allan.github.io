@@ -168,7 +168,7 @@ body {
 
 .list-horizontal li a img {
   height: 25px;
-  margin: 0 5px;
+  margin: 0 18px;
   vertical-align: baseline;
 }
 
@@ -196,5 +196,9 @@ body {
 
   .container section:last-of-type {
     height: 100% !important;
+  }
+
+  .list-horizontal li a img {
+    margin: 0 12px;
   }
 }
