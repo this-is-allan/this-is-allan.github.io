@@ -193,4 +193,8 @@ body {
   .content {
     justify-content: center;
   }
+
+  .container section:last-of-type {
+    height: 100% !important;
+  }
 }
