@@ -11,47 +11,45 @@
 </head>
 
 <body>
-  <div class="container">
-    <section class="d-flex flex-column">
-      <div class="dark-gradient"></div>
-      <div class="profile d-flex">
-        <div class="ml-2">
-          <img src="https://media.giphy.com/media/2zeji2UedvZzvIZ45N/giphy.gif" alt="">
+  <div class="wrapper">
+    <section class="half-screen half-screen--background-image">
+      <div class="half-screen__gradient"></div>
+      <div class="my-informations">
+        <img src="https://media.giphy.com/media/2zeji2UedvZzvIZ45N/giphy.gif" alt="">
 
-          <p class="text-primary">
-            I'm a Full Stack Developer with interest in building most effective, clean and fluid apps. I like to be
-            involved in product inception, validation, and I also love learning and explore current technologies that
-            are used by large startups. I am currently learning English to start an international career.
-          </p>
+        <p>
+          I'm a Full Stack Developer with interest in building most effective, clean and fluid apps. I like to be
+          involved in product inception, validation, and I also love learning and explore current technologies that
+          are used by large startups. I am currently learning English to start an international career.
+        </p>
 
-          <ul class="list-horizontal">
-            <li><a href="https://www.instagram.com/allancarlos999/" target="_blank"><img src="./instagram.svg" alt="Instagram"></a></li>
-            <li><a href="https://twitter.com/allancarlos_1" target="_blank"><img src="./twitter.svg" alt="Twitter"></a></li>
-            <li><a href="https://www.linkedin.com/in/allancarlos/" target="_blank"><img src="./linkedin.svg" alt="Linkedin"></a></li>
-            <li><a href="https://github.com/allancarlos123" target="_blank"><img src="./github.svg" alt="Github"></a></li>
-          </ul>
+        <ul class="my-informations__socials">
+          <li><a href="https://www.instagram.com/allancarlos999/" target="_blank"><img src="./instagram.svg" alt="Instagram"></a></li>
+          <li><a href="https://twitter.com/allancarlos_1" target="_blank"><img src="./twitter.svg" alt="Twitter"></a></li>
+          <li><a href="https://www.linkedin.com/in/allancarlos/" target="_blank"><img src="./linkedin.svg" alt="Linkedin"></a></li>
+          <li><a href="https://github.com/allancarlos123" target="_blank"><img src="./github.svg" alt="Github"></a></li>
+        </ul>
 
-          <ul class="contacts">
-            <li>allancarlosdeveloper@gmail.com</li>
-            <li>(81) 9 9618-0810</li>
-          </ul>
-        </div>
+        <ul class="my-informations__contacts">
+          <li>allancarlosdeveloper@gmail.com</li>
+          <li>(81) 9 9618-0810</li>
+        </ul>
       </div>
     </section>
 
-    <section class="d-flex flex-column">
+    <section class="half-screen">
       <main class="main-content">
-        <div class="header-content">
+        <header class="header-content">
           <h1><i class="em em-mage"></i> Skills</h1>
-        </div>
+        </header>
 
         <div class="content">
           <div class="card">
-            <div class="card-title">
-              <h5>HTML5</h5>
+            <div class="card__header">
+              <span>HTML5</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="10" style="width: 0">
                   <div class="progress-bar progress"></div>
@@ -61,25 +59,23 @@
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>CSS</h5>
+            <div class="card__header">
+              <span>CSS</span>
             </div>
 
-            <div class="card-body">
-              <div class="progress">
-                <div class="progress-wrap progress" data-progress-percent="55" style="width: 0">
-                  <div class="progress-bar progress"></div>
-                </div>
+            <div class="card__body">
+              <div class="progress-wrap progress" data-progress-percent="55" style="width: 0">
+                <div class="progress-bar progress"></div>
               </div>
             </div>
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>JavaScript</h5>
+            <div class="card__header">
+              <span>JavaScript</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="85" style="width: 0">
                   <div class="progress-bar progress"></div>
@@ -89,11 +85,11 @@
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>React</h5>
+            <div class="card__header">
+              <span>React</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="25" style="width: 0">
                   <div class="progress-bar progress"></div>
@@ -103,11 +99,11 @@
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>React Native</h5>
+            <div class="card__header">
+              <span>React Native</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="85" style="width: 0">
                   <div class="progress-bar progress"></div>
@@ -117,11 +113,11 @@
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>JQuery</h5>
+            <div class="card__header">
+              <span>JQuery</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="85" style="width: 0">
                   <div class="progress-bar progress"></div>
@@ -131,11 +127,11 @@
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>Bootstrap 3/4</h5>
+            <div class="card__header">
+              <span>Bootstrap 3/4</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="85" style="width: 0">
                   <div class="progress-bar progress"></div>
@@ -145,11 +141,11 @@
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>SASS</h5>
+            <div class="card__header">
+              <span>SASS</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="85" style="width: 0">
                   <div class="progress-bar progress"></div>
@@ -159,11 +155,11 @@
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>Semantic UI</h5>
+            <div class="card__header">
+              <span>Semantic UI</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="85" style="width: 0">
                   <div class="progress-bar progress"></div>
@@ -173,11 +169,11 @@
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>NodeJS</h5>
+            <div class="card__header">
+              <span>NodeJS</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="85" style="width: 0">
                   <div class="progress-bar progress"></div>
@@ -187,11 +183,11 @@
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>MongoDB</h5>
+            <div class="card__header">
+              <span>MongoDB</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="85" style="width: 0">
                   <div class="progress-bar progress"></div>
@@ -201,11 +197,11 @@
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>Express</h5>
+            <div class="card__header">
+              <span>Express</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="85" style="width: 0">
                   <div class="progress-bar progress"></div>
@@ -215,11 +211,11 @@
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>PHP</h5>
+            <div class="card__header">
+              <span>PHP</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="85" style="width: 0">
                   <div class="progress-bar progress"></div>
@@ -229,11 +225,11 @@
           </div>
 
           <div class="card">
-            <div class="card-title">
-              <h5>Firebase</h5>
+            <div class="card__header">
+              <span>Firebase</span>
             </div>
 
-            <div class="card-body">
+            <div class="card__body">
               <div class="progress">
                 <div class="progress-wrap progress" data-progress-percent="85" style="width: 0">
                   <div class="progress-bar progress"></div>
