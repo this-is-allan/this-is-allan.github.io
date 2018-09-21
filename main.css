@@ -27,11 +27,9 @@ body {
   opacity: 0.92;
   background-color: #262729;
   background-image: linear-gradient(#852564, #ee4c34);
-  background-image: radial-gradient(
-    circle farthest-corner at center,
+  background-image: radial-gradient(circle farthest-corner at center,
     #852564 0%,
-    #ee4c34 100%
-  );
+    #ee4c34 100%);
   transition: opacity 0.5s ease-out;
   -webkit-transition: opacity 0.5s ease-out;
   -moz-transition: opacity 0.5s ease-out;
@@ -135,6 +133,36 @@ body {
   flex-wrap: wrap;
   justify-content: end;
   padding: 0 20px;
+}
+
+.content__portfolio {
+  padding: 0;
+}
+
+.sample__image {
+  /* height: 140px !important; */
+  /* width: 290px !important; */
+  border-radius: 5px 15px;
+}
+
+.sample__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  margin: 10px 5px;
+  text-decoration: none;
+}
+
+.sample__title--link a,
+.sample__title--link a:visited,
+.sample__title--link a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sample__title--link a:after {
+  content: " »";
 }
 
 .my-informations__socials {

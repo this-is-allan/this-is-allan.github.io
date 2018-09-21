@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
   <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+  <link href="./assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="./assets/owl.theme.default.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,6 +19,7 @@
       <div class="my-informations">
         <img src="https://media.giphy.com/media/2zeji2UedvZzvIZ45N/giphy.gif" alt="">
 
+        <p>Hello, my name is Allan Carlos.</p>
         <p>
           I'm a Full Stack Developer with interest in building most effective, clean and fluid apps. I like to be
           involved in product inception, validation, and I also love learning and explore current technologies that
@@ -252,12 +255,38 @@
             </div>
           </div>
         </div>
+
+        <header class="header-content">
+          <h1><i class="em em-man_dancing"></i> Portfolio</h1>
+        </header>
+
+        <div class="content content__portfolio">
+          <div class="owl-carousel">
+            <figure class="sample">
+              <img class="sample__image" src="./site1.png" alt="Revista Dois Pontos">
+              <figcaption class="sample__title sample__title--link"><a href="http://www.revistadoispontos.org/" target="_blank">Revista
+                  Dois Pontos</a></figcaption>
+            </figure>
+
+            <figure class="sample">
+              <img class="sample__image" src="./site2.png" alt="MyReads">
+              <figcaption class="sample__title sample__title--link"><a href="http://allancarlos.io/myreads/" target="_blank">MyReads</a></figcaption>
+            </figure>
+
+            <figure class="sample">
+              <img class="sample__image" src="./site4.png" alt="Dois Pontos - Entrevista">
+              <figcaption class="sample__title sample__title--link"><a href="http://www.revistadoispontos.org/" target="_blank">
+                  Dois Pontos: Entrevista</a></figcaption>
+            </figure>
+          </div>
+        </div>
       </main>
     </section>
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="main.js"></script>
+  <script src="./owl.carousel.min.js"></script>
+  <script src="./main.js"></script>
 </body>
 
 </html>

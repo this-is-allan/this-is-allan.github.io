@@ -11,3 +11,22 @@ function moveProgressBar() {
     }, 500)
   })
 }
+
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel({
+    items: 2,
+    dots: false,
+    center: true,
+    mouseDrag: true,
+    adaptiveHeight: false,
+    responsive: {
+      0: {
+        items: 1,
+        // center: false,
+      },
+      800: {
+        items: 2,
+      }
+    }
+  });
+});
