@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400");
-
 body {
   display: fixed;
   padding: 0;
@@ -27,9 +26,7 @@ body {
   opacity: 0.92;
   background-color: #262729;
   background-image: linear-gradient(#852564, #ee4c34);
-  background-image: radial-gradient(circle farthest-corner at center,
-    #852564 0%,
-    #ee4c34 100%);
+  background-image: radial-gradient(circle farthest-corner at center, #852564 0%, #ee4c34 100%);
   transition: opacity 0.5s ease-out;
   -webkit-transition: opacity 0.5s ease-out;
   -moz-transition: opacity 0.5s ease-out;
@@ -131,7 +128,7 @@ body {
 .content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: end;
+  justify-content: flex-start;
   padding: 0 20px;
 }
 
@@ -195,15 +192,12 @@ body {
   .wrapper {
     flex-direction: column;
   }
-
   .content {
     justify-content: center;
   }
-
   .wrapper section:last-of-type {
     height: 100% !important;
   }
-
   .my-informations__socials li a img {
     margin: 0 12px;
   }
